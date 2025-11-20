@@ -1,43 +1,39 @@
-header,
-main,
-aside,
-footer {
-    display: inline-block;
-}
+ body {
+            margin: 0;
+            padding: 0;
+        }
 
-body {
-    margin: 0;
-    padding: 0;
-}
-.container {
-    height: 80vh;
-    width: 100vw;
-}
-main {
-    background-color: cadetblue;
-    width: 60%;
-    height: 60%;
-}
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
 
-header {
-    background-color: red;
-    height: 20%;
-    min-width: 100%;
-}
+        header {
+            background-color: red;
+            height: 20vh;
+            width: 100%;
+        }
 
-section {
-    width: 80%;
-    height: 80%;
-}
+        main {
+            display: flex;
+            flex: 1;
+            background-color: cadetblue;
+            justify-content: space-between;
+        }
 
-aside {
-    background-color: green;
-    width: 39%;
-    height: 100%;
-}
+        section {
+            background-color: lightgray;
+            flex: 1;
+        }
 
-footer {
-    background-color: pink;
-    width: 100%;
-    height: 20vh;
-}
+        aside {
+            background-color: green;
+            width: 30%;
+        }
+
+        footer {
+            background-color: pink;
+            height: 20vh;
+            width: 100%;
+        }
